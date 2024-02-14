@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color:#fdfdfd ;
+    color: #212427
+}
+
+a{
+    text-decoration-line: none   !important
+}
+
+.title{
+    color: #0575E6;
+}
+
+
+.buttonColor{
+    background-color: #0575E6;
+}
+
+.buttonColor:hover{
+    background-color: #021B79; 
+}
+
+.container{
+    width: 100vw;
+    padding: 2rem 11rem;
+}
+
+.logoSliderContainer{
+    padding: 0 10rem;
+}
+
+@media only screen and (max-width: 600px) {
+.title{
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.container{
+    width: 100vw;
+    padding: 2rem 1rem;
+}
+
+.containerPerfil{
+    width:100%;
+}
+
+.perfil{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textDescription{
+    padding: 0 1.7rem;
+    font-size: 1rem;
+}
+
+.subTittle{
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+.logoSliderContainer{
+    padding: 0 1.7rem;
+}
+
+.tittleCard{
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.descriptionCard{
+    font-size: 1rem;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+}
